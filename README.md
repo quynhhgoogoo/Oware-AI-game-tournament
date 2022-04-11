@@ -2,14 +2,14 @@
 
 A project work for CS-E480 Artificial Intelligence Course
 
-CS-E4800 Tournament 
-###################
+## CS-E4800 Tournament 
+
 
 Welcome to the "CS-E4800 Tournament"!
 
 In this tournament, we will develop an agent to play the Oware game.
 
-The rules of the game are described here:
+1. The rules of the game are described here:
     * https://www.yourturnmyturn.com/rules/oware.php
     * The game also ends when it exceeds 240 turns. In this case, the winner is
       the player with the most seeds. It means the condition for the
@@ -25,14 +25,14 @@ The rules of the game are described here:
       player.
 
 
-Requirements
-^^^^^^^^^^^^
+## Requirements
+
 To run this program, we need to install `Pillow`:
 ` pip install Pillow==9.0.1`
 
 
-Instructions
-^^^^^^^^^^^^
+## Instructions
+
 0. (Optional) Play the game to learn and understand its rules.
    You can play the game by running the following command:
    `python3 main.py`
@@ -70,8 +70,8 @@ Instructions
     invest more time.
 
 
-Simulation
-^^^^^^^^^^
+## Simulation
+
 For simulating the game, you can use the `main.py` script. Just import your agent
 and `play` the game with an instance of your agent.
 
